@@ -115,3 +115,18 @@ body {
     text-decoration: line-through;
     color: #808080;
 }
+
+@media (min-width: 576px) {
+
+    .add-tarefas-container input {
+        font-size: 2em;
+    }
+
+    .add-tarefas-container button {
+        font-size: 2em;
+        margin-left: 20px;
+    }
+    .tarefas-container h2 {
+        font-size: 2em;
+    }
+}
