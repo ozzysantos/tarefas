@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/escritorio_ozzy.jpg");
+    background-color: rgba(0, 0, 0, 0.7); /* Cor preta com 70% de transparência */
+    background-blend-mode: multiply; /* Multiplica a cor de fundo com a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixar a imagem no viewport */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+
+.header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 -20px; /* Adicionando margens nas laterais */
+}
+
+.logo-container {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.title-container {
+    flex: 2;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.container {
+    padding: 150px 20px 20px; /* Aumentando o padding no topo para acomodar o cabeçalho */
+    margin: 0 auto; /* Centralizando o conteúdo */
+    max-width: 800px; /* Limitando a largura do conteúdo */
+}
+
+.add-tarefas-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#addTarefas {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    width: 80%;
+}
+
+#addTarefaButton {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tarefas-container {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+.tarefas-container h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+#tarefasList {
+    list-style: none;
+    padding: 0;
+}
+
+.tarefa-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+.tarefa-item:last-child {
+    border-bottom: none;
+}
+
+.tarefa-text {
+    flex: 1;
+}
+
+.tarefa-delete {
+    color: orange;
+    cursor: pointer;
+}
+
+.tarefa-text.concluida {
+    text-decoration: line-through;
+    color: #808080;
+}

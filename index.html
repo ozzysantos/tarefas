@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Projetos Ozzy</title>
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="images/logo_ozzy.png" alt="Logo" class="logo">
+        </div>
+        <div class="title-container">
+            <h1>Projetos Ozzy</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="add-tarefas-container">
+            <input type="text" id="addTarefas" placeholder="Adicionar tarefa">
+            <button id="addTarefaButton">Adicionar</button>
+        </div>
+        <div class="tarefas-container">
+            <h2>Tarefas a fazer<span style="font-size: 0.5em; color: gray;"> (clique em cima da tarefa para marcar como concluída)</span></h2>
+            <ul id="tarefasList">
+                <!-- Aqui as tarefas serão inseridas dinamicamente -->
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
