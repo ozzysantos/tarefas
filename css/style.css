@@ -116,7 +116,7 @@ body {
     color: #808080;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 480px) {
 
     .add-tarefas-container input {
         font-size: 2em;
