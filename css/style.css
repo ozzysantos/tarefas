@@ -10,6 +10,7 @@ body {
     background-attachment: fixed; /* Fixar a imagem no viewport */
     font-family: Arial, sans-serif;
     color: white;
+    
 }
 
 
@@ -104,6 +105,7 @@ body {
 
 .tarefa-text {
     flex: 1;
+    cursor: pointer;
 }
 
 .tarefa-delete {
